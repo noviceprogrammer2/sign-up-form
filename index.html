@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up-Form</title>
-    <link href="styles.css" rel = "stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Website is running</h1>
+    <div class="main">
+        <div class="image-container">
+            <div class="logo-container">
+                <img class="logo" src="/assets/spotify-logo.png">
+                <p>Spotify
+                </p>
+            </div>
+        </div>
+        <div class="content-container">
+            <div class="message-container">
+                <h1 class="message">Sign up to for new music discovery each week using your pre-existing spotify
+                    account!
+                </h1>
+            </div>
+            <div class="form-container">
+                <form>
+                    <label for="first-name">First Name</label>
+                    <input type="text" placeholder="John" id="first-name" name="first-name">
+
+                    <label for="last-name">Last Name</label>
+                    <input type="text" placeholder="Smith" id="last-name" name="last-name">
+
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="johnsmith42@gmail.com" id="email" name="email">
+
+                    <label for="phone-number">Phone Number</label>
+                    <input type="number" id="phone-number" name="phone-number" placeholder="123-456-7890">
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password">
+
+                </form>
+            </div>
+            <div class="signup-container">
+                <button type="submit">Signup</button>
+                <h1>All rights reserved </h1>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
